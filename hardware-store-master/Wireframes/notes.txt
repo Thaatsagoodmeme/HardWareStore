@@ -1,0 +1,13 @@
+pink - ff75a0
+grey - 707070
+yellow - FCCF06
+dark blue - 143A50
+Montserrat & courier new
+
+
+SELECT ws.shift_id, ws.employee_id, ws.shift_date, ws.shift_time 
+FROM `work_shift` AS ws
+INNER JOIN employees AS e
+ON ws.employee_id = e.Id
+WHERE ws.shift_date BETWEEN "2021-03-28" AND "2021-04-04"
+ORDER BY ws.shift_date, ws.shift_time

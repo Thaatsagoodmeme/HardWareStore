@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>0</y>
+      <w>410</w>
+      <h>580</h>
+    </coordinates>
+    <panel_attributes>*Employee*
+--
+ - empId: string
+ - firstName: string
+ - lastName: string
+ - birthDate: DateTime
+ - gender: Gender
+ - address: string
+ - phoneNumber: string
+ - contractStartDate: DateTime
+ - contractExpirationDate: DateTime
+ - availableVacationDays: int
+ - department: string
+ - position: Position
+ - email: string
+ - passwordHash: string
+--
+ + EmpId { get; }: string
+ + FirstName { get; }: string
+ + LastName { get; }: string
+ + BirthDate { get; }: DateTime
+ + Gender { get; }: Gender
+ + Address { get; set; }: string
+ + PhoneNumber { get; set; }: string
+ + ContractStartDate { get; }: DateTime
+ + ContractExpirationDate { get; set; }: DateTime
+ + AvailableVacationDays { get; set; }: int
+ + Department { get; set; }: string
+ + Position { get; set; }: Position
+ + Email { get; set; }: string
+ + PasswordHash { get; set; }: string
+ + Employee(empId: string, firstName: string, 
+            lastName: string, birthDate: DateTime,
+            gender: Gender, address: string, 
+            phoneNumber: string, contractExpirationDate: DateTime,
+            availableVacationDays: int, deparment: string, 
+            position: Position, email: string, passwordHash: string)
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>270</y>
+      <w>270</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>*Product*
+--
+ - productId: string
+ - name: string
+ - price: double
+ - quantity: long
+ - department: string
+--
+ + Product(productId: string, name: string,
+        price: double, quantity: long,
+        department: string)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>130</y>
+      <w>160</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enumeration&gt;&gt;
+*Position*
+--
+Salesman
+DepartmentManager
+HR
+SystemAdministrator</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>10</y>
+      <w>120</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enumeration&gt;&gt;
+*Gender*
+--
+Male
+Female
+Other</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
