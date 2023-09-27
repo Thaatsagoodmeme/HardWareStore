@@ -1,0 +1,43 @@
+-- Installer does not create a desktop icon. You have to open the application from the folder you installed it into.
+	-> MB Accounting/bin/Debug/MB Accounting.exe
+-- Name of program is: MB Accounting.exe(with a pink circle icon). It is not a virus. Trust us :)
+-- Always run the app as administrator(this should be by default, but in case it does not work)!
+-- Application might take some 2-3 seconds to load after opening and before closing!
+	-- This is because of the automatic connection/disconnection to the VPN.
+-- Make sure Cisco AnyConnect is completely closed(from the bottom right of the navbar that is) before opening the application!
+--------------------------------------------------------------
+
+PASSWORDS
+
+- HR Login
+user: hr@gmail.com
+password: 123456
+
+ - Warehouse employee Login
+user: wrhemp@gmail.com
+password: 123456
+
+- Salesman Login
+user: salesman@gmail.com
+password: 123456
+
+- Department Manager login
+user: deptmngr@gmail.com
+password: 123456
+
+
+
+LINK TO SITE
+
+http://i450851.hera.fhict.nl/calendar/
+
+
+
+-- You can create additional accounts using the HR account
+----------------------------------------------------------------
+Cisco AnyConnect Login Info to use in case auto-connect does not work!
+Link: vdi.fhict.nl
+Username: i449915
+Password: Eyq7shG4Je
+----------------------------------------------------------------
+
