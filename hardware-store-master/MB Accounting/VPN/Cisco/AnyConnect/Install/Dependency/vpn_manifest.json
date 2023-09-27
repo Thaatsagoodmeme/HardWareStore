@@ -1,0 +1,48 @@
+{
+   "component" : [
+      {
+         "dependencies" : [
+            {
+               "condition" : [
+                  {
+                     "architecture" : "x86"
+                  },
+                  {
+                     "platform" : "windows"
+                  }
+               ],
+               "display_name" : "AnyConnect Kernel Driver Framework",
+               "id" : "com.cisco.anyconnect.kdf",
+               "require" : [
+                  {
+                     "version" : "4.9.04006"
+                  }
+               ],
+               "type" : "component"
+            },
+            {
+               "condition" : [
+                  {
+                     "architecture" : "x86_64"
+                  },
+                  {
+                     "platform" : "windows"
+                  }
+               ],
+               "display_name" : "AnyConnect Kernel Driver Framework",
+               "id" : "com.cisco.anyconnect.kdf",
+               "require" : [
+                  {
+                     "version" : "4.9.04006"
+                  }
+               ],
+               "type" : "component"
+            }
+         ],
+         "display_name" : "Cisco AnyConnect Secure Mobility Client VPN Module",
+         "id" : "com.cisco.anyconnect.vpn",
+         "type" : "module",
+         "version" : "4.9.04043"
+      }
+   ]
+}
